@@ -4,6 +4,7 @@
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
@@ -31,11 +32,17 @@
             <Label styleClass="FXFontBackground" text="">
                <font>
                   <Font name="Font Awesome 5 Free" size="30.0" />
-               </font></Label>
-            <Label prefHeight="80.0" prefWidth="120.0" styleClass="FXFontBackground" text="">
-               <font>
-                  <Font name="Font Awesome 5 Free Solid" size="30.0" />
-               </font></Label>
+               </font>
+            </Label>
+            <StackPane fx:id="stackTest">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="120.0" styleClass="FXFontBackground" text="">
+                     <font>
+                        <Font name="Font Awesome 5 Free Solid" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </StackPane>
             <Label styleClass="FXFontBackground" text="">
             </Label>
             <Label styleClass="FXFontBackground" text="Franz jagt">
